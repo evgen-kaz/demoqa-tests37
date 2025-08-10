@@ -43,5 +43,6 @@ public class CssXpathExamples {
         $x("//*[text()='Hello, qa.guru!']"); //считается, что вариант не очень хороший
         $x("//*[contains(text(),'Hello, qa.guru!')]"); //т.е. поиску по содержанию текста (contains это означает содержит)
         $x(".='Hello, qa.guru!'");
+
     }
 }
