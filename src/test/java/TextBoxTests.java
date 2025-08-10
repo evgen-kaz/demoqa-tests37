@@ -12,7 +12,7 @@ public class TextBoxTests {
         Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.pageLoadStrategy = "eager"; //ждем только DOMContentLoaded
-        Configuration.holdBrowserOpen = true; //оставляем браузер открытым
+        Configuration.holdBrowserOpen = true; //оставляем браузер открытым после теста
     }
 
     @Test
